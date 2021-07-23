@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number of pallets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Oblicz ilość palet na kontener</h1>
+    <div class="first">
+ <label for="pt-number">Ilość palet:</label>
+    <input name="pt-number" type="number"><br>
+</div>
+   <h3>Wymiary palety:</h3>
+<div class="pallet">
+    <label for="pt-width">Width</label>
+    <input name="pt-width" type="number"><br>
+    <label for="pt-height">Height</label>
+    <input name="pt-height" type="number"><br>
+    <label for="pt-length">Length</label>
+    <input name="pt-length"type="number"><br>
+    
+
+
+    <label for="double-pallet">Piętrowalne palety? </label>
+    <input name="double-pallet"type="checkbox"><br>
+    <input type="button" value="OK" onClick="calc()">
+</div>
+   
+  
+   
+
+
+    <p class="result"></p>
+
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

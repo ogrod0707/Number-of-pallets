@@ -1,0 +1,81 @@
+body{
+    color: #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Ubuntu";
+    background: linear-gradient(#0dc0e9,#3a7bd5 );
+}
+
+.container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    width: 750px;
+    border-radius: 20px;
+}
+
+input[type=number]{
+   border: 0;
+   background: none;
+   margin: 8px auto;
+   text-align: center;
+   padding: 12px 10px;
+   border: 2px solid #159fbe;
+   width: 200px;
+   outline: none;
+   color: black;
+   border-radius: 24px;
+   transition: 0.2s;
+   -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]:hover{
+    border: 3px solid #159fbe;
+}
+.pallet{
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.first > input{
+    width: 50px;
+}
+.first > label{
+    margin-right: 20px;
+}
+input[type="button"]{
+    border: 0;
+    background: none;
+    margin:auto;
+    text-align: center;
+    border: 2px solid #159fbe;
+    padding: 12px 10px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 100px;
+}
+input[type="button"]:hover{
+    background: #159fbe;
+    color: white;
+    font-weight: 700;
+}
+
